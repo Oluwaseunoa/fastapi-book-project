@@ -73,3 +73,5 @@ async def get_book(book_id: int) -> Book:
         return JSONResponse(status_code=status.HTTP_404_NOT_FOUND, content={"detail": "Book not found"})
 
     return book
+
+#Added a line to test the pipeline integration
